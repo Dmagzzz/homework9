@@ -1,0 +1,19 @@
+{
+    "name": "homework9",
+    "version": "1.0.0",
+    "description": "a professional README generator using Node",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+"
+
+    }
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "inquirer": "^6.3.1"
+    }
+  }
