@@ -17,50 +17,44 @@ function init() {
   .prompt([
     {
       type: 'input',
-      message: 'What ?',
+      message: 'What is the title of your project ?',
       name: 'title',
     },
 
     {
-      type: 'password',
-      message: 'What is your password?',
+      type: 'input',
+      message: 'What is your description?',
       name: 'description',
     },
     {
-      type: 'password',
-      message: 'Re-enter password to confirm:',
-      name: 'tableOfContents',
+      type: 'input',
+      message: 'What command is used to install dependencies?',
+      name: 'installations',
     },
-
-    {
-        type: 'password',
-        message: 'Re-enter password to confirm:',
-        name: 'installations',
-      },
       {
-        type: 'password',
-        message: 'Re-enter password to confirm:',
+        type: 'input',
+        message: 'What command is used to start the program?',
         name: 'usage',
       },
       {
         type: 'list',
-        message: 'Re-enter password to confirm:',
+        message: 'What license is used for this program?',
         name: 'license',
         choices: ["MIT", "Apache", "no license"]
       },
       {
-        type: 'password',
-        message: 'Re-enter password to confirm:',
+        type: 'input',
+        message: 'Please enter what is needed to contribute to the project.',
         name: 'contributing',
       },
       {
-        type: 'password',
-        message: 'Re-enter password to confirm:',
+        type: 'input',
+        message: 'What command is used to test the program?',
         name: 'tests',
       },
       {
-        type: 'password',
-        message: 'Re-enter password to confirm:',
+        type: 'input',
+        message: 'What is your gitHub username?',
         name: 'questions',
       },
 
